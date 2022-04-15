@@ -1,4 +1,4 @@
-import "./Login.sass";
+import "./Login.scss";
 import "../../styles/reset.css";
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
@@ -6,6 +6,7 @@ const Login = () => {
   const [userId, setId] = useState("");
   const [userPw, setPw] = useState("");
   const [disabled, setDisabled] = useState(true);
+
   const history = useNavigate();
   const onChange = (e) => {
     if (e.target.id === "id") {
@@ -13,6 +14,7 @@ const Login = () => {
     } else if (e.target.id === "pw") {
       setPw(e.target.value);
     }
+    console.log(userId, userPw);
     if (userId.includes("@") && userPw.length >= 5) {
       setDisabled(false);
     }

@@ -1,6 +1,5 @@
 import "./Content.sass";
 import Card from "../../components/Card";
-import Story from "./SideContent/Story";
 import Recommend from "./SideContent/Recommand";
 const SideContent = () => {
   return (

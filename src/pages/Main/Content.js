@@ -1,7 +1,7 @@
 import "./Content.sass";
-import Upper from "./Content/Upper";
-import Middle from "./Content/Middle";
-import Lower from "./Content/Lower";
+import Upper from "./MainContent/Upper";
+import Middle from "./MainContent/Middle";
+import Lower from "./MainContent/Lower";
 import Comment from "./Comment/Commnet";
 const Content = () => {
   return (

@@ -10,6 +10,7 @@ import { useRef, useState } from "react";
 import NewComment from "./NewComment";
 const Comment = () => {
   const [editing, setEditing] = useState("");
+
   const [comment, setComment] = useState([
     {
       id: 1,

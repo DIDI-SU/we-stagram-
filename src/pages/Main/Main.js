@@ -7,7 +7,10 @@ const Main = () => {
     <>
       <Header />
       <main>
-        <Content />
+        <div>
+          {" "}
+          <Content />
+        </div>
         <SideContent />
       </main>
     </>

@@ -1,0 +1,16 @@
+$line-color: #dbdbdb;
+$background: #fafafa;
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin centerRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}

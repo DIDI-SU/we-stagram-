@@ -1,7 +1,7 @@
-const Middle = () => {
+const Middle = (prop) => {
   return (
     <section className="imgContainer">
-      <img className="mainimg" src={"images/room.png"} />
+      <img className="mainimg" src={prop.src} />
     </section>
   );
 };

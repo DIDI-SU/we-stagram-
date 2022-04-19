@@ -1,11 +1,11 @@
-const Upper = () => {
+const Upper = (prop) => {
   return (
     <section className="nameCon">
       <div className="imgDiv">
-        <img className="name" src={"images/room.png"} />
+        <img className="name" src={prop.src} />
       </div>
       <div className="nameDiv">
-        <span>keroppi</span>
+        <span>{prop.userName}</span>
       </div>
     </section>
   );

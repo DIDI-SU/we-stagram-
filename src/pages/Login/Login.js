@@ -14,7 +14,6 @@ const Login = () => {
     } else if (e.target.id === "pw") {
       setPw(e.target.value);
     }
-    console.log(userId, userPw);
     if (userId.includes("@") && userPw.length >= 5) {
       setDisabled(false);
     }
